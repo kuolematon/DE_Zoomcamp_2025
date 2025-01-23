@@ -8,4 +8,22 @@ docker run -it python:3.12.8 /bin/bash
 root@f14e424c6c08:/# pip -V
 pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
 
-Answer: -24.3.1
+Answer: 24.3.1
+
+Question 2. 
+
+Answer: postgres:5433
+
+Question 3. Trip Segmentation Count
+
+
+Question 4. Longest trip for each day
+
+
+Question 5. Three biggest pickup zones
+
+
+Question 6. Largest tip
+
+
+Question 7. Terraform Workflow
