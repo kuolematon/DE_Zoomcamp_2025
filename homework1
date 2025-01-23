@@ -1,0 +1,11 @@
+Homework 1: Docker, SQL and Terraform
+
+Question 1.
+
+root@de:~# docker run -it python:3.12.8 /bin/bash
+
+docker run -it python:3.12.8 /bin/bash
+root@f14e424c6c08:/# pip -V
+pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
+
+Answer: -24.3.1
