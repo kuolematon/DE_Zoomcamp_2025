@@ -1,0 +1,39 @@
+services:
+  # PostgreSQL
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: de_zoomcamp
+      POSTGRES_PASSWORD: PxNw6gk33Rm9J4
+      POSTGRES_DB: ny_taxi
+    volumes:
+      - ./ny_taxi_postgres_data:/var/lib/postgresql/data:rw
+    ports:
+      - "5432:5432"
+    networks:
+      - de_zoomcamp_network
+
+  # pgAdmin
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: PxNw6gk33Rm9J4
+    ports:
+      - "5050:80"
+    networks:
+      - de_zoomcamp_network
+    volumes:
+      - ./pgadmin_data:/var/lib/pgadmin
+
+networks:
+  de_zoomcamp_network:
+    driver: bridge
+
+volumes:
+  ny_taxi_postgres_data:
+    name: ny_taxi_postgres_data
+  pgadmin_data:
+    name: pgadmin_data

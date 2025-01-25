@@ -19,7 +19,7 @@ pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
 ## Question 2: PostgreSQL port
 
 ### Answer:
-`postgres:5433`
+`db:5432`
 
 ---
 
@@ -120,8 +120,8 @@ ORDER BY 3 DESC;
 
 ## Question 7: Terraform Workflow
 
-### Solution:
-
+### Answer:
+`terraform init, terraform apply -auto-approve, terraform destroy`
 
 ---
 
