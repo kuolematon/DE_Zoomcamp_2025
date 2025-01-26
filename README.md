@@ -28,7 +28,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 sudo apt update && sudo apt install -y terraform
 
 # Install Jupyter Notebook
-pip install notebook
+pip install jupyter
 ```
 
 ### Step 4: Create Required Folders
