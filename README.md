@@ -1,17 +1,19 @@
 # README
 
+**Note:** The solution for the homework assignment can be found in the folder `first_sprint/homework1.md`.
+
 ## Instructions for Setting Up the Project
 
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone <repository_url>
+git clone https://github.com/kuolematon/DE_Zoomcamp_2025.git
 cd <repository_folder>
 ```
 
-### Step 2: Create Your Own Repository and Connect Codespaces
-1. Create a new repository on GitHub.
-2. Open the repository in GitHub Codespaces.
+### Step 2: Connect Your Repository to Codespaces
+1. Fork the repository to your own GitHub account.
+2. Open the forked repository in GitHub Codespaces.
 
 ### Step 3: Install Required Packages
 Ensure the following packages are installed:
