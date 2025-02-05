@@ -1,16 +1,16 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "6.18.1"
     }
   }
 }
 
 provider "google" {
-  project     = "zoomcamp-6887"
-  region      = "europe-north1"
-  zone        = "europe-north1-c"
+  project = "zoomcamp-6887"
+  region  = "europe-north1"
+  zone    = "europe-north1-c"
 }
 
 resource "google_storage_bucket" "zoomc-ucket" {
